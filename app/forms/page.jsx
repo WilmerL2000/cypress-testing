@@ -4,7 +4,7 @@ import { Button, TextField } from '@mui/material';
 import ItemsAccordion from '../components/Accordion';
 import styles from './forms.module.css';
 
-const items = [
+export const items = [
   {
     summary: 'Step 1) Get Form',
     details: `First, we need to get the form`,

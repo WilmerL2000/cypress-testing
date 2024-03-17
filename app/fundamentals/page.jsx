@@ -1,7 +1,7 @@
 import ItemsAccordion from '../components/Accordion';
 import styles from './fundamentals.module.css';
 
-const items = [
+export const items = [
   {
     summary: 'Fundamental 1) Describe blocks',
     details: `Your tests will exist in a describe block. This block takes two arguments. The first is a description of what you are testing. 
